@@ -1,0 +1,37 @@
+@import "../../styles/variables";
+
+.button {
+  display: flex;
+  align-items: center;
+
+  padding: 0;
+
+  transition: opacity 0.3s;
+
+  opacity: 0.6;
+  color: inherit;
+  border: none;
+  background: none;
+
+  font-size: 1.8rem;
+  line-height: 2.2rem;
+
+  &:hover {
+    transition: opacity 0.3s;
+
+    opacity: 1;
+  }
+
+  svg {
+    margin-right: 1.2rem;
+  }
+
+  &_outlined {
+    padding: 5px;
+
+    color: $primary-font-color;
+    border: 1px solid $primary-theme-color;
+    border-radius: 5px;
+    background: $primary-theme-color;
+  }
+}

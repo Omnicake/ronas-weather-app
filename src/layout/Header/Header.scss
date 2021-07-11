@@ -1,0 +1,11 @@
+@import "../../styles/breakpoints";
+
+.header {
+  display: flex;
+  justify-content: space-between;
+
+  @include media("<=tablet") {
+    align-items: center;
+    flex-direction: column;
+  }
+}

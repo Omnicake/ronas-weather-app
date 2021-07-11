@@ -1,0 +1,10 @@
+@import "../../styles/breakpoints";
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+
+  @include media("<=tablet") {
+    flex-direction: column;
+  }
+}

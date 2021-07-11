@@ -1,0 +1,11 @@
+.value-display {
+  &__container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__value {
+    font-size: 2.5rem;
+    line-height: 3rem;
+  }
+}

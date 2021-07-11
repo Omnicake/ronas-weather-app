@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+@import "breakpoints";
+@import "variables";
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+
+  color: $primary-font-color;
+}
+
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+  box-sizing: border-box;
+
+  font-size: 10px;
+
+  @include media("<=tablet") {
+    font-size: 6px;
+  }
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+h1 {
+  font-size: 18rem;
+  line-height: 21.6rem;
+
+  @include media("<=tablet") {
+    font-size: 9rem;
+    line-height: 10rem;
+  }
+}
+
+h2 {
+  font-size: 5rem;
+  line-height: 6rem;
+}
+
+h3 {
+  opacity: 0.6;
+
+  font-size: 1.8rem;
+  line-height: 2.2rem;
+}
+
+svg {
+  fill: currentColor;
+}

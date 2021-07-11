@@ -1,0 +1,28 @@
+@import "../../styles/variables";
+@import "../../styles/breakpoints";
+
+.container {
+  display: flex;
+  flex-direction: column;
+
+  height: 100vh;
+  padding: 7.5rem 7.5rem 7.5rem 10rem;
+
+  @include media("<=tablet") {
+    padding: 3rem;
+  }
+
+  transition: background-color 0.3s;
+
+  &_good-weather {
+    transition: background-color 0.3s;
+
+    background-color: $bg-good-color;
+  }
+
+  &_bad-weather {
+    transition: background-color 0.3s;
+
+    background-color: $bg-bad-color;
+  }
+}

@@ -1,0 +1,51 @@
+@import "../../styles/variables";
+
+.switch {
+  &__container {
+    display: inline-flex;
+
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    border-radius: 8px;
+
+    font-size: 1.8rem;
+  }
+
+  &__item {
+    input[type=radio] {
+      display: none;
+    }
+
+    &:first-child {
+      label {
+        border-top-left-radius: 8px;
+        border-bottom-left-radius: 8px;
+      }
+    }
+
+    &:last-child {
+      label {
+        border-top-right-radius: 8px;
+        border-bottom-right-radius: 8px;
+      }
+    }
+
+    label {
+      display: inline-block;
+
+      padding: .5rem 1.5rem;
+
+      cursor: pointer;
+      user-select: none;
+      transition: background-color, opacity 0.3s;
+
+      opacity: 0.6;
+    }
+
+    input[type=radio]:checked + label {
+      transition: background-color, opacity 0.3s;
+
+      opacity: 1;
+      background: $secondary-theme-color;
+    }
+  }
+}
