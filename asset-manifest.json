@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/ronas-weather-app/static/css/main.d1c1e071.chunk.css",
-    "main.js": "/ronas-weather-app/static/js/main.d8cc7131.chunk.js",
-    "main.js.map": "/ronas-weather-app/static/js/main.d8cc7131.chunk.js.map",
+    "main.js": "/ronas-weather-app/static/js/main.d0e4b515.chunk.js",
+    "main.js.map": "/ronas-weather-app/static/js/main.d0e4b515.chunk.js.map",
     "runtime-main.js": "/ronas-weather-app/static/js/runtime-main.387d8ec9.js",
     "runtime-main.js.map": "/ronas-weather-app/static/js/runtime-main.387d8ec9.js.map",
     "static/js/2.01072585.chunk.js": "/ronas-weather-app/static/js/2.01072585.chunk.js",
@@ -16,6 +16,6 @@
     "static/js/runtime-main.387d8ec9.js",
     "static/js/2.01072585.chunk.js",
     "static/css/main.d1c1e071.chunk.css",
-    "static/js/main.d8cc7131.chunk.js"
+    "static/js/main.d0e4b515.chunk.js"
   ]
 }
