@@ -18,8 +18,8 @@ const CityName: React.FC = () => {
     const dispatch = useDispatch();
 
     const onConfirmClick = async () => {
-        await dispatch(fetchWeatherData(cityName || ""));
         setInputActive(false);
+        await dispatch(fetchWeatherData(cityName || ""));
     }
 
     const onGeolocationClick = async () => {
@@ -35,8 +35,9 @@ const CityName: React.FC = () => {
         }
     }
 
-    const onInputBlur = () => {
-        setInputActive(false)
+    const onInputBlur = async () => {
+        setInputActive(false);
+        await dispatch(fetchWeatherData(cityName || ""));
     }
 
     return isInputActive ?
