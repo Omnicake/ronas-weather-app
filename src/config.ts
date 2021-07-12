@@ -1,4 +1,5 @@
-export const weatherAPIAddress = "https://api.openweathermap.org/data/2.5/weather";
+export const weatherAPIAddress =
+  "https://api.openweathermap.org/data/2.5/weather";
 
 export const weatherIconAPIAddress = "https://openweathermap.org/img/wn/";
 
